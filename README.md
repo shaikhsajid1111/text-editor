@@ -7,7 +7,7 @@
 >About
 Argon Text Editor is a simple text editor that can perform operations with various kinds of files. It is written with python's tkinter.
 
-![](capture.PNG)
+![](screenshots/capture.PNG)
 
 # Features
 >Argon text editor is written in python tkinter.
