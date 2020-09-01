@@ -394,7 +394,7 @@ file.add_command(label = "Exit",image = exit_icon,compound = tk.LEFT,accelerator
 #adding all the dropdowns in edit menu
 edit.add_command(label = "Copy",image = copy_icon,compound = tk.LEFT,accelerator = "Ctrl + C",command = lambda : text_editor.event_generate("<Control c>"))
 edit.add_command(label = "Cut",image = cut_icon,compound = tk.LEFT,accelerator = "Ctrl + X",command = lambda : text_editor.event_generate("<Control x>"))
-edit.add_command(label = "Paste",image = paste_icon,compound = tk.LEFT,accelerator = "Ctrl + V",command = lambda : self.btext_editor.event_generate("<Control v>"))
+edit.add_command(label = "Paste",image = paste_icon,compound = tk.LEFT,accelerator = "Ctrl + V",command = lambda : text_editor.event_generate("<Control v>"))
 def undo(event = None):
     try:
         text_editor.edit_undo()
