@@ -20,7 +20,7 @@ Argon Text Editor is a simple text editor written with python's tkinter.
 
 # Technologies
 
-* [Python](python.org) - Source Language
+* [Python](https://python.org) - Source Language
 * [Tkinter](https://wiki.python.org/moin/TkInter) - Provides GUI for the application
 * [ttkthemes](https://pypi.org/project/ttkthemes/)  - Provides theme for the GUI
 
